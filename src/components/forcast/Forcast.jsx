@@ -5,7 +5,7 @@ import { forecast } from '../../constants'
 const Forcast = () => {
   return (
     <div className='forcast'>
-            <h2>Commission Forcast</h2>
+            <h2>Commission Forecast</h2>
         <div className="forcast-contain">
                 {forecast.map((cast) => (
                     <div className='forcasts'>

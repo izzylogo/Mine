@@ -9,19 +9,21 @@ const Tier = () => {
             <div className="tier-card-sec">
                 <div className="tier-card">
                     <div className="card-top">
-                        <p className='gold'>Get    </p>
+                        <p className='gold'>Get</p>
                         <h2>$30</h2>
-                        <span>USDc per NFT</span>
+                        <p>USDc per NFT</p>
                     </div>
-                    <p>Earn 30 USDc for each NFT minted by <br /> your referees</p>
+                    {/* Added a new class name */}
+                    <p className='card-bottom'>Earn 30 USDc for each NFT minted by <br /> your referees</p>
                 </div>
                 <div className="tier-card">
                     <div className="card-top">
                         <p className='gold'>Extra  </p>
                         <h2> $50</h2>
-                        <span>Bonus USDc</span>
+                        <p>Bonus USDc</p>
                     </div>
-                    <p>Earn extra 50 USDc bonus for every 5 NFT's <br /> minted b your referees</p>
+                    {/* Added a new class name */}
+                    <p className='card-bottom'>Earn extra 50 USDc bonus for every 5 NFT's <br /> minted b your referees</p>
                 </div>
             </div>
         </div>

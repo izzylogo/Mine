@@ -28,35 +28,35 @@
 }
 
 .card-top{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
 }
 
-.card-top span{
-    font-size: 20px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.697);
-}
-
-.tier-card .card-top h2{
-    display: inline-block;
-    gap: 10px;
-    margin: 10px 20px;
-    text-align: center;
-    font-size: 30px;
-}
-
-.tier-card .gold{
-    color: orange;
-    display: inline;
-    text-align: center;
-    font-size: 20px;
-}
-
-.tier-card p{
+.card-top p{
     margin: 0px;
-    text-align: center;font-weight: 600;
+}
+
+.gold{
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-top h2{
+    font-size: 45px;
+    margin: 0px 10px !important;
+}
+
+
+
+
+
+.card-bottom{
+    margin: 0px;
+    text-align: center;
+    font-weight: 600;
     padding-bottom: 8px;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.697);
