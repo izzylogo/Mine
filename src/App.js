@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Faq from './components/faq/Faq';
+import Forcast from './components/forcast/Forcast';
+import Hero from './components/hero/Hero';
+import Invite from './components/invite/Invite';
+import Term from './components/terms/Term';
+import Tier from './components/tier/Tier';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='App-contain'>
+        <Hero/>
+        <Invite/>
+        <Tier/>
+        <Forcast/>
+        <Faq/>
+        <Term/>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,70 @@
+.tier{
+    background-color: rgba(160, 202, 188, 0.419);
+    padding: 30px 40px;
+}
+
+.tier-contain{
+    margin-bottom: 40px;
+}
+
+.tier-contain h2{
+    font-size: 40px;
+}
+
+.tier-card-sec{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.tier-card{
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 2px 24px -6px rgba(0,0,0,0.56);
+-webkit-box-shadow: 0px 2px 24px -6px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 2px 24px -6px rgba(0,0,0,0.56);
+    padding: 15px 30px;
+}
+
+.card-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-top span{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.697);
+}
+
+.tier-card .card-top h2{
+    display: inline-block;
+    gap: 10px;
+    margin: 10px 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tier-card .gold{
+    color: orange;
+    display: inline;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tier-card p{
+    margin: 0px;
+    text-align: center;font-weight: 600;
+    padding-bottom: 8px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.697);
+}
+
+@media screen and (max-width: 900px) {
+    .tier-card-sec{
+        flex-direction: column;
+        gap: 60px;
+    }
+}

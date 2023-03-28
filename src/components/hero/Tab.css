@@ -1,0 +1,67 @@
+.tab{
+    color: black;
+}
+
+.tab-contain{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px ;
+}
+
+.tab-contain  label,
+.bu p{
+    color: rgba(0, 0, 0, 0.512);
+    font-weight: 400;
+}
+
+
+.form div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.form div input{
+    background-color: aliceblue;
+    border: none;
+    padding: 10px 5px;
+    outline: none;
+}
+
+.bu{
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bu p {
+    font-size: 17px;
+}
+
+.bu span{
+    font-size: 13px;
+}
+
+.bu h4{
+    font-size: 25px;
+}
+
+.connect{
+    background-color: orange;
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.connect button{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* loader */
