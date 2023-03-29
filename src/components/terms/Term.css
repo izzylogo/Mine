@@ -1,5 +1,11 @@
 .term{
-    padding: 30px 40px;
+    padding: 30px 60px;
+}
+
+@media screen and (max-width: 900px) {
+    .term{
+        padding: 20px 30px;
+    }
 }
 
 .term h2{
@@ -12,7 +18,7 @@
 
 @media screen and (max-width: 600px) {
     .term h2{
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 
@@ -57,4 +63,20 @@
     gap: 10px;
     align-items: center;
     margin: 0px auto;
+}
+
+@media screen and (max-width: 900px) {
+    .last h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .last h2{
+        font-size: 20px;
+    }
+
+    .last button{
+        font-size: 15px;
+    }
 }

@@ -1,6 +1,6 @@
 .tier{
     background-color: rgba(160, 202, 188, 0.419);
-    padding: 30px 40px;
+    padding: 30px 60px;
 }
 
 .tier-contain{
@@ -63,8 +63,18 @@
 }
 
 @media screen and (max-width: 900px) {
+    .tier{
+        padding: 20px 30px;
+    }
     .tier-card-sec{
         flex-direction: column;
         gap: 60px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .tier-contain h2{
+        font-size: 35px;
+    }
+}
+    

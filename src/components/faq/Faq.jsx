@@ -12,7 +12,6 @@ const Faq = () => {
       console.log(toggle)
     }
     
-
   return (
     <div className='faq'>
         <h2>FAQ</h2>
@@ -28,11 +27,12 @@ const Faq = () => {
                     </div>
                     <hr />
                     <p
-                    style={{display: faqs.id === selectedFaq ? 'block' : 'none'}}
+                    style={{
+                        display: faqs.id === selectedFaq ? 'block' : 'none',
+                    }}
                     >
                         {faqs.answer}
                     </p>
-                    {/* {toggle ? <p>{faqs.answer}</p> : null}{console.log(faqs.id)} */}
                 </div>
             ))}
         </div>

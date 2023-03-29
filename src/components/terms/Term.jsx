@@ -10,7 +10,7 @@ const Term = () => {
         <div className="term-contain">
             {terms.map((term) => (
                 <div className="condition">
-                    <h4>{term.num} . {" "}</h4>
+                    <h4>{term.num}  {" "}</h4>
                     <p>{" "}{term.condition}</p>
                 </div>
             ))}
