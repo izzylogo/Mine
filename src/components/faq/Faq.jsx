@@ -7,10 +7,8 @@ const Faq = () => {
 
     const [toggle, setToggle] = useState(false)
     const [selectedFaq, setSelectedFaq] = useState('')
-    const handleToggle = () => {
-      setToggle(prevToggle => !prevToggle)
-      console.log(toggle)
-    }
+    
+    
     
   return (
     <div className='faq'>
@@ -21,18 +19,28 @@ const Faq = () => {
                     <div className="quest-top">
                         <h4>{faqs.question}</h4>
                         <IoIosArrowDown
-                            onClick={() => setSelectedFaq(faqs.id) } 
+                            onClick={() => {setSelectedFaq(faqs.id); setToggle(prevToggle => !prevToggle)} } 
                             className='icon'
                         />
                     </div>
                     <hr />
-                    <p
-                    style={{
-                        display: faqs.id === selectedFaq ? 'block' : 'none',
-                    }}
-                    >
-                        {faqs.answer}
-                    </p>
+                    {/* 
+                        This part states that if toggle is true displayy the p tag and the p tag
+                        states that if the two are identical add a display of block
+                    */}
+                    {
+                        toggle ?
+                            <p
+                        style={{
+                            display: faqs.id === selectedFaq  ? 'block' : 'none',
+                        }}
+                        >
+                            {faqs.answer}
+                        </p>
+                        :
+                        null
+                    }
+                    
                 </div>
             ))}
         </div>

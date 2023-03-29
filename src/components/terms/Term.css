@@ -52,6 +52,10 @@
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 .last button {
     background-color: orange;
     padding: 10px 25px;

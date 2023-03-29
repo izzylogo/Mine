@@ -1,6 +1,6 @@
 .tier{
     background-color: rgba(160, 202, 188, 0.419);
-    padding: 30px 60px;
+    padding: 40px 60px;
 }
 
 .tier-contain{
@@ -13,7 +13,9 @@
 
 .tier-card-sec{
     display:flex;
-    justify-content: space-between;
+    align-self: center;
+    justify-content: center;
+    gap: 150px;
     margin-top: 40px;
 }
 
@@ -48,10 +50,6 @@
     font-size: 45px;
     margin: 0px 10px !important;
 }
-
-
-
-
 
 .card-bottom{
     margin: 0px;

@@ -1,5 +1,5 @@
 .App {
-
+  scroll-behavior: smooth;
 }
 
 .App-contain{

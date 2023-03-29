@@ -2,6 +2,7 @@ import React from 'react'
 import './Term.css'
 import { terms } from '../../constants'
 import {BsArrowRight} from 'react-icons/bs'
+import { Link } from 'react-scroll'
 
 const Term = () => {
   return (
@@ -17,10 +18,12 @@ const Term = () => {
         </div>
         <div className="last">
             <h2>Invite Your Friends and Start Earning Now!</h2>
-            <button>
-                Invite Friends             
-                <BsArrowRight/>
-            </button>
+            <Link to="./hero">
+                <button>
+                    Invite Friends             
+                    <BsArrowRight/>
+                </button>
+            </Link>
         </div>
     </div>
   )
