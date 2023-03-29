@@ -18,29 +18,29 @@ export const forecast = [
 
   export const  faq = [
     {
-      id: 1,
+      id: '1',
       question: `How long does the IO's Referral Program last`,
       answer: 'The Referral program is a long-term incentive that will launch on 2023 and currently does not have an offical end date',
       line2: 'Participants will be notified in advance if the program ends'
     },
     {
-      id: 2,
+      id: '2',
       question: `How is the IO's Referral Program?`,
       answer: 'The IO`s Referral program is an opportunuty to earn commission by inviting friends to IO`s exclusive investment network',
       line2: 'You`ll receive a reward for each NFT minted by your friends during the program period'
     },
     {
-      id: 3,
+      id: '3',
       question: `Is there limit on how long i can earn commissions through the Referral Program?`,
       answer: 'As long as the program is active, you can continue to earn commission NFT minted by your friends.',
     },
     {
-      id: 4,
+      id: '4',
       question: `What is a qualified referee?`,
       answer: 'A qualified referee is a friend who successfully mints an NFT`s from IO`s collection. Commissions are paid upon successful completion of a friends transaction',
     },
     {
-      id: 5,
+      id: '5',
       question: `What is the price of the NFT?`,
       answer: 'The price of the NFT is 0.26 ETH.',
     },
