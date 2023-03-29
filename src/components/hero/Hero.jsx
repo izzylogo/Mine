@@ -17,7 +17,7 @@ const Hero = () => {
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, id magnam amet accusantium fugiat similique commodi impedit voluptas placeat ipsum exercitationem eveniet iusto sapiente vel.
           </p>
-          <Link to='./invite'>
+          <Link to='invite' spy={true} smooth={true} offset={50} duration={500}>
             <button>
               Learn More 
               <BsArrowRight/>

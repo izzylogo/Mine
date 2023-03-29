@@ -18,7 +18,7 @@ const Term = () => {
         </div>
         <div className="last">
             <h2>Invite Your Friends and Start Earning Now!</h2>
-            <Link to="./hero">
+            <Link to="hero"  spy={true} smooth={true} offset={50} duration={500}>
                 <button>
                     Invite Friends             
                     <BsArrowRight/>
