@@ -36,16 +36,20 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .bu{
     display: flex !important;
     align-items: center;
     justify-content: space-between;
+    margin: 10px 0px;
 }
 
 .bu p {
     font-size: 17px;
+    margin: 0px;
 }
 
 .bu span{
@@ -54,6 +58,7 @@
 
 .bu h4{
     font-size: 25px;
+    margin: 0px;
 }
 
 .connect{

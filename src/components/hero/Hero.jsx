@@ -15,7 +15,7 @@ const Hero = () => {
             Earn $30 per NFT minted by your Friends
           </h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, id magnam amet accusantium fugiat similique commodi impedit voluptas placeat ipsum exercitationem eveniet iusto sapiente vel.
+            Invite your friends to join IO's exclusive investment network and earn commissionon thier NFT purchases. Earn $30 per NFT minted by your friends and a $50 bonus for every 5 NFTs minted
           </p>
           <Link to='invite' spy={true} smooth={true} offset={50} duration={500}>
             <button>

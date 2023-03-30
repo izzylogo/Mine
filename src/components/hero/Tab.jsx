@@ -3,10 +3,12 @@ import Loader from '../loader/Loader'
 import './Tab.css'
 import {HiDocumentText} from 'react-icons/hi'
 
-
 const Tab = () => {
 
     const [load, setLoad] = useState(true)
+    const changeLoad = () => {
+        console.log(setLoad)
+    }
 
   return (
     <div className='tab'>
@@ -44,7 +46,9 @@ const Tab = () => {
             {
                 load ? 
                 <div className='connect'>
-                    <button>Connet Wallet</button>
+                    <button onClick={changeLoad}>
+                        Connet Wallet
+                    </button>
                 </div>
                 :
                 <Loader/>
