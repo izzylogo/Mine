@@ -40,6 +40,10 @@
     margin-bottom: 0px;
 }
 
+.input .copy{
+    cursor: pointer;
+}
+
 .bu{
     display: flex !important;
     align-items: center;

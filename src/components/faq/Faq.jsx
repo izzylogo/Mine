@@ -28,7 +28,7 @@ const Faq = () => {
                         This part states that if toggle is true displayy the p tag and the p tag
                         states that if the two are identical add a display of block
                     */}
-                    {
+                    {/* {
                         toggle ?
                             <p
                         style={{
@@ -37,6 +37,12 @@ const Faq = () => {
                         >
                             {faqs.answer}
                         </p>
+                        :
+                        null
+                    } */}
+                    {
+                        toggle && faqs.id === selectedFaq ?
+                        <p>{faqs.answer}</p>
                         :
                         null
                     }

@@ -2,10 +2,14 @@ import React, { useState } from 'react'
 import Loader from '../loader/Loader'
 import './Tab.css'
 import {HiDocumentText} from 'react-icons/hi'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
 
 const Tab = () => {
 
     const [load, setLoad] = useState(true)
+    const [referralLink, SetReferralLink] = useState('')
+    const [inputValue, SetInputValue] = useState('')
+    const [wallet, SetWallet] = useState('')
     const changeLoad = () => {
         console.log(setLoad)
     }
@@ -20,21 +24,50 @@ const Tab = () => {
                 <div className="code">
                     <label htmlFor="code">Refferal Code</label>
                     <div className="input">
-                        <input id='code' name='code' type="password" />
-                        <HiDocumentText/>
+                        <input 
+                            id='code' 
+                            name='code' 
+                            type="password" 
+                            value={inputValue}
+                            onChange={(e) => SetInputValue(e.target.value)}
+                        />
+                        <CopyToClipboard
+                            text={inputValue} 
+                        >
+                            <HiDocumentText className='copy'/>
+                        </CopyToClipboard>
                     </div>
                 </div>
                 <div className="link">
                     <label htmlFor="link">Refferal Link</label>
                     <div className="input">
-                        <input id='link' type="password" />
-                        <HiDocumentText/>
+                        <input
+                            id='link' 
+                            type="text" 
+                            value={referralLink}
+                            onChange={(e) => SetReferralLink(e.target.value)}
+                        />
+                        <CopyToClipboard
+                            text={referralLink} 
+                        >
+                            <HiDocumentText className='copy'/>
+                        </CopyToClipboard>
                     </div>                </div>
                 <div className="wallet">
                     <label htmlFor="wallet">My Wallet</label>
                     <div className="input">
-                        <input id='wallet' type="password" />
-                        <HiDocumentText/>
+                        <input 
+                            id='code' 
+                            name='code' 
+                            type="password" 
+                            value={wallet}
+                            onChange={(e) => SetWallet(e.target.value)}
+                        />
+                        <CopyToClipboard
+                            text={wallet} 
+                        >
+                            <HiDocumentText className='copy'/>
+                        </CopyToClipboard>
                     </div> 
                 </div>
             </div>

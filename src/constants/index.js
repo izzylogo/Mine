@@ -20,14 +20,13 @@ export const forecast = [
     {
       id: '1',
       question: `How long does the IO's Referral Program last`,
-      answer: 'The Referral program is a long-term incentive that will launch on 2023 and currently does not have an offical end date',
-      line2: 'Participants will be notified in advance if the program ends'
+      answer: 'The Referral program is a long-term incentive that will launch on 2023 and currently does not have an offical end date.Participants will be notified in advance if the program ends.',
     },
     {
       id: '2',
       question: `How is the IO's Referral Program?`,
-      answer: 'The IO`s Referral program is an opportunuty to earn commission by inviting friends to IO`s exclusive investment network',
-      line2: 'You`ll receive a reward for each NFT minted by your friends during the program period'
+      answer: 'The IO`s Referral program is an opportunuty to earn commission by inviting friends to IO`s exclusive investment network.You`ll receive a reward for each NFT minted by your friends during the program period. ',
+      line2: ''
     },
     {
       id: '3',
